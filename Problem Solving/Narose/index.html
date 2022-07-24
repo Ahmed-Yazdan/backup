@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div class="flex">
+            <button id="solidColorBtn" type="button">Solid Color</button>
+            <button id="gradientBtn2" type="button">Gradient 2</button>
+            <button id="gradientBtn3" type="button">Gradient 3</button>
+        </div>
+        <div class="flex">
+            <button id="displayBtn" type="button">Preview</button>
+            <button id="downloadBtn" type="button">Download</button>
+        </div>
+        <div class="flex">
+            <input class="noneDisplay" id="pickedColor" type="color">
+            <br/>
+            <input class="colorFeild noneDisplay" id="pickedColor1" type="text" placeholder="hex code or color name">
+            <label class="text-center noneDisplay">Gradient color 1</label>
+            <input class="colorFeild noneDisplay" id="gradientColor1" type="text" placeholder="hex code or color name">
+            <label class="text-center noneDisplay">Gradient color 2</label>
+            <input class="colorFeild noneDisplay" id="gradientColor2" type="text" placeholder="hex code or color name">
+            <label class="text-center noneDisplay">Gradient color 3</label>
+            <input class="colorFeild noneDisplay" id="gradientColor3" type="text" placeholder="hex code or color name">
+        </div>
+        <div class="flex">
+            <canvas id="myCanvas" width="500px" height="500px"; style="border:1px solid rgb(0, 0, 0); margin:10px">Your browser does not support the
+                canvas tag.</canvas>
+            <img style="display:none" width="80%" height="300px" src="" id="imgConverted">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

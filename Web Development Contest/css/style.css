@@ -1,0 +1,211 @@
+body,html{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* COMMON CLASSES */
+.container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+    margin: auto;
+    padding: 10px;
+    width: 75%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    padding:10px;
+    /* border: 0.5px solid teal; */
+}
+.card:hover{
+    box-shadow: 2px 2px 5px teal;
+    background-color:white;
+}
+.teal-text{
+    color: teal;
+}
+.img{
+    width:500px;
+    height:400px;
+}
+.btn{
+    color: white;
+    background-color:teal;
+    padding:10px;
+    font-size:1.3rem;
+    border-radius: 10px;
+    border: 0px;
+}
+.btn:hover{
+    border: 1px solid cyan;
+}
+/* NAVBAR */
+.navbar{
+    background-color: cyan;
+    padding:10px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.nav-item{
+    transition:all 0.3s ease-in-out;
+}
+.nav-item a{
+    text-decoration:none;
+    color: black;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+}
+
+/* HOME SECTION */
+.home-section{
+    /* width: 75%; */
+    margin-top:3rem;
+}
+
+.home-details{
+    padding:0px 110px;
+}
+.home-details h1{
+    font-size:2.5rem;
+}
+
+/* doc-section */
+.doc-section{
+    margin-top:10rem;
+}
+.card-details h1{
+    text-align: center;
+}
+
+
+/* APPOINTMETN SECTION */
+.appointment-sec{
+    margin-top:100px;
+}
+.appointment-head{
+    font-size: 3rem;
+    text-align: center;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input{
+    width: 90%;
+    height: 2rem;
+    padding: 5px;
+    margin:10px 0px;
+}
+
+/* About Us Section */
+#about-head{
+    text-align: center;
+    color: teal;
+    font-size: 3rem;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    margin:0px;
+    padding:30px;
+    text-align: center;
+}
+
+/* Making the website responsive */
+
+@media only screen and (max-width: 991px) {
+    body,html{
+        width: 100%;
+    }
+    .navbar{
+        width:100%;
+    }
+    .nav-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav-item{
+        margin-top:10px;
+    }
+    .img{
+        width:250px;
+        height: auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width:80%;
+        margin: 10px 0px;
+    }
+    .appointment-sec{
+        width: 100%;
+        margin: 0;
+    }
+    .appointment-head{
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

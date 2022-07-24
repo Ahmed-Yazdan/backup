@@ -1,0 +1,10 @@
+What does Map do?
+=> Map loops through anything and stores them in a variable as a return value;
+
+What does Filter do?
+=> filter loops through anything and checks for condition and stores only those " Elelments " who can fufill his condition inside a varianble.
+=> returns as an " Array ".
+
+What does find do?
+=> find loops through anything and checks for condition and stores only those " Elelments " who can fufill his condition inside a varianble.
+=> returns every elemnts individually.

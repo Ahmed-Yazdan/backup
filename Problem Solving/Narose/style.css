@@ -1,0 +1,19 @@
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 20px auto;
+}
+.colorFeild {
+	/* margin-top: 10px; */
+	border: 1px solid black;
+	width: 250px;
+}
+.text-center{
+	text-align: center;
+	margin-top: 10px;
+}
+.noneDisplay{
+	display: none;
+}

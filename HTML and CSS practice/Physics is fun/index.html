@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics is fun</title>
+    <!-- Adding css file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Select your formula</h1>
+    <button id="formula-1" onclick="displayFormulas(1)">v = u+at</button>
+    <button id="formula-2" onclick="displayFormulas(2)">s = {(u+v)/2}t</button>
+    <button id="formula-3" onclick="displayFormulas(3)">s = ut + &#189at<sup>2</sup></button>
+    <button id="formula-4" onclick="displayFormulas(4)">v<sup>2</sup> = u<sup>2</sup>+2as</button>
+    <!-- <div id="display"><h1>DISPLAY</h1></div> -->
+    <!-- a = (v-u)/t -->
+    <div id="show-formula">
+
+    </div>
+    <p></p>
+    <!-- a = (v-u)/t
+    <h1 style="text-align: center;">a = (v-u)/t</h1>
+    <button id="a1">a = (v-u)/t</button>
+    <button id="t1">t = (v-u)/a</button>
+    <button id="u1">u = v-at</button>
+    <button id="v1">v = u+at</button> -->
+
+    <input type="text" placeholder="a" id="a">
+    <input type="text" placeholder="t" id="t">
+    <input type="text" placeholder="u" id="u">
+    <input type="text" placeholder="v" id="v">
+
+    <h1 style="text-align: center;">Answer</h1>
+    <div id="answer"></div>
+    <p></p>
+    <!-- <button onclick="calculate1()">calculate</button> -->
+    <!-- Adding JavaScript -->
+    <script src="js/app.js"></script>
+</body>
+</html>

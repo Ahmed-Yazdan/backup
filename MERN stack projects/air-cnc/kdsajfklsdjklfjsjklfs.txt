@@ -1,0 +1,13 @@
+name
+host
+location
+capacity => guests, bedroom, beds, baths
+price
+rating => stars, ratedBy
+description
+facilities => Wifi, air conditioning, kitchen
+house rules => pet, baby, party, smoking, etc
+type => experience, home, meeting, party
+
+min: 5
+max: 10

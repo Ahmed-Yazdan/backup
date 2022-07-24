@@ -1,0 +1,46 @@
+body,html{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 0px;
+    width: 1vw;
+    position: relative;
+}
+.child{
+    border: 1px solid black;
+    width: 450px;
+    height: 300px;
+}
+
+#child-1{
+    background-color: red;
+}
+#child-2{
+    background-color: blue;
+}
+#child-3{
+    background-color: red;
+}
+#child-4{
+    background-color: blue;
+}
+#child-5{
+    background-color: red;
+}
+#child-6{
+    background-color: blue;
+}
+
+#ball-top-left{
+    border:1px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top: 0px;
+    left: 1000px;
+}
